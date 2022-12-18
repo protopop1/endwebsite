@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Студент lyamport</title>
+
+</head>
+    <body>
+    <h1>ru</h1>
+    <h2>Лямпорт Владислав Сергеевич</h2>
+    <h3>Разработка блока стабилизации погонной нагрузки на ленту конвейера с использованием промежуточной управляемой емкости</h3>
+    <p>автоматизация технологических процессов и производств</p>
+
+    <h1>ua</h1>
+    <h2>Лямпорт Владислав Сергійович</h2>
+    <h3>Розробка блоку стабілізації погонного навантаження на стрічку конвеєра з використанням проміжної керованої ємності</h3>
+    <p>автоматизація технологічних процесів та виробництв</p>
+
+    <h1>en</h1>
+    <h2>Lyamport Vladislav Sergeevich</h2>.
+    <h3>Development of block of stabilisation of linear load on conveyor belt with use of intermediate controlled container</h3>.
+    <p>Automation of technological processes and production</p>
+
+    </body>
+</html>

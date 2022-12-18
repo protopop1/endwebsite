@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abstract - Lyamport Vladislav Sergeevich - Development of block of stabilisation of linear load on conveyor belt with use of intermediate controlled container</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <link rel="icon" href="../img/favicon.png">
+    <script src="../css/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+<!--ЛЕВАЯ НАВИГАЦИЯ. КНОПКА НАВИГАЦИИ ПРИ РАЗРЕШЕНИИ ЭКРАНА 1350рх-->
+<div class="burger-menu">
+    <input id="menu-toggle" type="checkbox" />
+    <label class="menu-btn" for="menu-toggle">
+        <span></span>
+    </label>
+    <header class="side-bar text-white">
+        <div class="d-flex align-items-center flex-column justify-content-between">
+            <div class="logo">
+                <img src="../img/logo.png">
+            </div>
+            <div class="navbar">
+                <ul class="list justify-content-center">
+                    <li><a href="../indexe.html">Resume</a></li>
+                    <li><a href="./indexe.html">Abstract</a></li>
+                    <div class="white-line"></div>
+                    <li><a href="https://donntu.ru/" target="_blank">DonNTU website</a><br></li>
+                    <li><a href="https://masters.donntu.ru/" target="_blank">DonNTU Master's Portal</a></li>
+                    <li><a href="indexu.html">UKR</a> <a href="index.html">RU</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+
+<main id="main">
+    <section class="resume">
+        <div class="container">
+            <div class="row">
+                <div class="photo col-xl-3 col-lg-4 col-md-5 d-flex justify-content-center align-item-center">
+                    <a href="../lyamport_big.jpg" data-lightbox="lbox">
+                        <img src="../photo.jpg"></a>
+                </div>
+                <div class="main-profile col-xl-9 col-lg-8 col-md-7">
+                    <h3>Lyamport Vladislav Sergeyevich</h3>
+                    <p><a href="https://donntu.ru/fkita" target="_blank">Faculty of Computer Information Technologies and Automation</a></p>
+                    <p><a href="https://donntu.ru/fkita/kgea" target="_blank">Department of Mining Electrical Engineering and Automation. R. M. Leibova</a></p>
+                    <p>Speciality: "Automation of technological processes and production"</p>
+                    <p>Development of block of stabilisation of linear load on conveyor belt with use of intermediate controlled container</p>
+                    <p>Scientific adviser: Associate Professor Neyezhmakov Sergey Vladimirovich</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="diss">
+        <div class="container">
+            <div class="row">
+                <div class="diss-content col-md-12">
+                    <h3 class="text-center">Abstract on the topic of graduation work</h3>
+                    <div class="blue-line"></div>
+                    <div class="content-text">
+                        <h3>Contents</h3>
+                        <a href="#p0">Introduction</a>
+                        <ol>
+                            <li><a href="#p1">Relevance of the theme</a></li>
+                            <li><a href="#p2">Purpose and objectives of the study, planned results</a></li>
+                            <li><a href="#p3">Overview of research and development</a>
+                                <ol>
+                                    <li ><a href="#p31">Process analysis of mine conveyor transport as an automation object</a></li>
+                                    <li ><a href="#p32">Overview of available technical solutions</a></li>
+                                    <li ><a href="#p33">Justification and development of circuit design. Algorithmisation of operation</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#p4">Mathematical description of the model of the object under study</a></li>
+                        </ol>
+                        <a href="#p5">Conclusions</a> <br>
+                        <a href="#p6">List of sources</a>
+
+
+                        <h4 id="p0">Introduction</h4>
+                        <p>Modern conveyor lines are characterised by their considerable length and the use of powerful drives. These are complex automation facilities, both in terms of controlling them and ensuring operational safety. The high efficiency of coal mining largely depends on the smooth and reliable operation of the conveyor transport, which is becoming increasingly important due to the distance of the mine faces from the cargo shafts.</p>
+                        <p>Uneven mining traffic results in idle running of conveyors, unequal loading of conveyor lines and low efficiency of their use. According to observational data the factor of conveyors using by productivity makes nowadays KQ = 40-70 %, and the factor of conveyors using by time KW = 0,208-0,224. This adversely affects the technical and economic indicators of conveyors use: increase of specific power consumption, reduction of belt and rollers life time and, consequently, increase of coal transportation cost. To increase the coefficient of use of conveyors in terms of productivity it is necessary to stabilize the cargo flow coming to the conveyor belt.</p>
+
+                        <h4 id="p1">1 Relevance of the theme</h4>
+                        <p>When emergencies occur in the work of the combine, process pauses and stoppages occur, which affect the feeding speed of the combine, and hence the miner's cargo flow is a random function in time. In order to correct the irregularity of the material flow and to obtain passport indicators of the conveyor performance, the load stabilisation unit BSPN, which is being developed, will be used.</p>
+                        <p>Another problem is the loss of transported material, which affects the performance of the conveyor line. Tracking the amount of cargo on the belt will minimise the loss of transported material, eliminate the possibility of belt rupture, and consequently eliminate the downtime of the conveyor transport. Also the service life of the conveyor belt will be increased, due to obtaining of uniform cargo flow, which comes from the hopper. Due to the dispatching of the technological process, the operator will be able to control the modes of operation of the conveyor, see the address of the triggered sensor, as well as set the required value of the cargo flow.</p>
+
+                        <h4 id="p2">2 Purpose and objectives of the study, planned results</h4>
+                        <p>The purpose of the master's work is to create safe operating conditions for conveyor transport and to ensure a stable load on the conveyor belt.</p>
+                        <p>The object of automation is a belt conveyor with an accumulating hopper and conveyor scales.</p>
+                        <p>A task of master's degree work is creation of the block of stabilisation of a linear load on the conveyor belt, by controlling position of the hopper gate, for maintenance of uniformity of a cargo flow on the conveyor belt.</p>
+                        <p>The following main objectives of the study should be highlighted:</p>
+                        <p>1 Analysis of the conveyor transport process as an object of automation.</p>
+                        <p>2 Critical review of known technical solutions for automation of the process of conveyor transport and stabilisation of cargo flow.</p>
+                        <p>3 Justification and development of the unit of stabilisation of the laden load on the conveyor belt.</p>
+
+                        <h4 id="p3">3 Overview of research and development</h4>
+
+                        <h4 id="p31">3.1 Process analysis of mine conveyor transport as an automation object</h4>
+                        <p>Mine conveyor transport is designed for transporting coal and rock from the mine working and preparatory drifts to the mine working face, materials and equipment from the mine working face to the mine working (preparatory) faces and in the opposite direction, people to and from the workplace and filling materials.</p>
+                        <p>The automation object is 1L800D conveyor, which is a part of transferring point.</p>
+                        <p>Conveyor Belt Mine 1L800D - a single-drive conveyor, Figure 1, intended for transporting rock mass in a straight line in the mine workings of coal and shale mines.</p>
+                        <p>The conveyor is the stationary installation of continuous action, traction-bearing, which device is the endless rubber-fibre belt supported on all extent by roller-frames and enveloping driving and turnover drums. The 1L800D belt conveyor as part of the transfer point is shown in figure 1.</p>
+                        <div class="big-img">
+                            <img src="../img/diss/diss11.PNG" alt="Belt conveyor 1L800D" width="1000">
+                        </div>
+                        <div class="podpis">
+                            <p> Figure 1 - Process diagram of a transfer point with 1L800D conveyor and intermediate controlled bunker</p>
+                        </div>
+                        <p>where 1 - 1L800D belt conveyor;</p>
+                        <p>2 - hopper;</p>
+                        <p>3 - gate valve;</p>
+                        <p>4 - conveyor scale.</p>
+                        <p>The conveyor 1L800D consists of the following parts: unloading section, drive, tensioning and loading device, end section. The conveyor bed has four designs: fixed floor, fixed hanger, wire rope floor and wire rope hanger.</p>
+                        <p>Conveyor scales, figure 2, consist of two main assemblies: load holder and measuring system. The weighing device is mounted on the conveyor's stake (1).The weighing device consists of two support beams (2) and two suspended beams (3). The measuring system consists of a beam strain gauge (4), belt speed sensor (6), conveyor weighing device and connecting cables.</p>
+                        <p>Using the support beams, the frame width can be varied, which makes it possible to use the conveyor scales on different widths of conveyor beds. It is also possible to mount the conveyor scales on a conveyor belt running at an inclination of up to 20°.</p>
+                        <div class="sm-img">
+                            <img src="../img/diss/diss12.PNG" alt="Конвейерные весы">
+                        </div>
+                        <div class="podpis">
+                            <p> Figure 2 - Conveyor scales</p>
+                        </div>
+                        <p>A bunker is a structure for temporary accumulation and storage of bulk goods, figure 3. In mining, bunkers are most widely used in the general chain of transport and technological machines. Accumulating bunkers allow to provide independent work of transport links following them (at temporary stoppage of material supply from the previous links) due to accumulation in bunkers of some stock of transported cargo.</p>
+                        <div class="sm-img">
+                            <img src="../img/diss/diss13.PNG" alt="Storage bunker">
+                        </div>
+                        <div class="podpis">
+                            <p> Figure 3 -  Storage bunker</p>
+                        </div>
+                        <p>The transfer point is designed for temporary storage of coal in case of stoppage of the main conveyor or for smoothing the cargo flow to the main conveyor. The design of transfer points varies. The work deals with a transfer point with an intermediate bunker controlled by a gate valve and belt conveyor 1L800D. Process for stabilising the load per lap belt on the 1L800D conveyor is shown in figure 4.</p>
+                        <div class="big-img">
+                            <img src="../img/diss/gdiss14e.gif" alt="Process for stabilising the load per lap belt on the 1L800D conveyor">
+                        </div>
+                        <div class="podpis">
+                            <p> Figure 4 - Process for stabilising the load per lap belt on the 1L800D conveyor <br>(animation: 7 frames, 125 kb, 10 fps)</p>
+                        </div>
+
+                        <h4 id="p32">3.2 Overview of available technical solutions</h4>
+                        <p>As known control systems of conveyor transport, the automated system of control and management of conveyors and conveyor lines ASUK-DEP is used.</p>
+                        <p>This system is intended for automated control of branched and not branched conveyor lines, and also single conveyors, included and not included in a conveyor line, in underground workings of mines and mines, and also in flow-transport systems of a surface complex.</p>
+                        <p>The system has advanced self-diagnostics and self-testing facilities. The dispatcher receives information on equipment performance down to an individual module. The system has low power consumption - no more than 40 watts per conveyor set.</p>
+                        <p>The structure of the main equipment of ACS-DEP includes: the central control station which is taking place in the dispatcher room and the block of control of the conveyor BUK (KS)-Ex (on one BUK on each conveyor). In addition, ACS-DEP can include: the control unit for slide gate BUC(S)-Ex, the control unit for hopper loading BUC(P)-Ex, the interface unit (bridge), the control panel for routes BUC(M)-Ex.</p>
+                        <p>BUK(SH)-Ex -Ex - microprocessor control unit of the gate valve is made in explosion-proof version and is based on the multifunctional design-engineering complex Dekont-Ex. BUK(SH)-Ex controls the gates sensors and issues (based on the information received from the sensors) the corresponding control commands and information signals automatically (according to the programmed operation algorithm). The gate valve control unit BUK(S)-Ex is an auxiliary equipment and provides gate valve control either in a local mode - from the controls placed directly on the front panel of the unit or in a remote mode - from the dispatcher commands from the CPU. The exterior view of the gates control unit BUK(S)-Ex is shown in Figure 5.</p>
+                        <div class="sm-img">
+                            <img src="../img/diss/diss15.PNG" alt="Exterior view of the BUK(W)-Ex sluice control unit">
+                        </div>
+                        <div class="podpis">
+                            <p> Figure 5 - Exterior view of the BUK(W)-Ex sluice control unit</p>
+                        </div>
+                        <h4 id="p33">3.3 Justification and development of circuit design. Algorithmisation of operation</h4>
+                        <p>When using the load stabilisation unit being developed, the transfer point should operate as follows. The conveyor operator or dispatcher at the operator/dispatcher station sets the parameters for the required conveyor capacity. This parameter is recorded by the conveyor scales and sent to the stabilisation block. The stabilisation block contains the PLC which processes the measured signal about quantity of a load on a conveyor belt and at its deviation from a set point, control of the gate. When the conveyor is loaded more than the set point, the gate is closed to a certain level until the load on the conveyor is equal to the set point. If the load falls below the set point, the opposite occurs.</p>
+                        <p>Algorithm of operation of the load stabilisation block BSPN.</p>
+                        <p>The process operation algorithm consists of the basic program of start and stop of the conveyor, and also the subprogram of the conveyor belt laden load control.</p>
+                        <p>The load stabilisation block provides local and automated control of the conveyor and gate.</p>
+                        <p>Local control is carried out by means of control buttons on the front panel of the operator's workstation.</p>
+                        <p>In automated control, the conveyor and slide gate are controlled from the dispatcher/operator workstation. All monitored parameters are displayed on the dispatcher's PC in real time and all received data are archived.</p>
+                        <p>1 The stabilisation unit operation process starts with initialisation of the automation system, i.e. assignment of all settings for triggering of sensors (without reintroduction upon system shutdown) belt run-off, overfeed, cable switch triggering, recording of set values (belt weight, belt speed). The load set points have their own range to reduce the number of gate drive on/off cycles.</p>
+                        <p>2 The conveyor is then started by push-button, from the operator's or surface controller's station with a switch-on warning signal.</p>
+                        <p>3 After switching on and waiting for the start-up time, the conveyor belt speed is initially checked to make sure that it is running at a speed Vfact≥0,75Vset. If the condition is not fulfilled, the conveyor is switched off and the information is transmitted to the operator and dispatcher.</p>
+                        <p>4 When the speed condition is met, the control unit proceeds to the next point "Open gate" at half the maximum height, and then the "parameter control subprogram" is executed. In this subprogram the parameters from the sensors are continuously monitored.</p>
+                        <p>The process of stabilisation of the load is as follows.</p>
+                        <p>Signals from the weight, overflow sensor and speed sensors are fed to the PLC. The gate position is adjusted. If the actual load Qfact is within ±5% of Qset, normal operation will continue to be indicated. This is the main cycle of the programme. The subprogram is then exited and the condition is checked to see if there is an emergency or a request to stop the process. If there is none, the program returns to the parameter subprogram.</p>
+                        <p>If there is a larger or smaller deviation from the set value, the gate position is adjusted and the load parameter is set back to the set value.</p>
+                        <p>If the actual load exceeds the maximum permissible load, the operator/dispatcher station is signalled to exceed the load and the gate position is adjusted.</p>
+                        <p>The Z=1 flag is set in case of an overload alarm and the Q=1 flag is set in case of an overload alarm.</p>
+                        <p>When flag Z=1 is set, the time is counted down. If the overshoot signal time is more than 5s, the operator station will be signalled, the conveyor will be stopped and the slide gate will be closed.</p>
+                        <p>When flag Q=1 is set, the time is counted down. If the belt overload signal is longer than 10 seconds, the operator's station will be signalled that the belt is overloaded. The slide gate is then closed to the minimum value without stopping the conveyor. After the actual load on the belt becomes less than 0.5Qmax, it will switch to sensor interrogation with subsequent regulation. If the signal duration is less than 10s, the subprogram will switch to the Sensor Interrogation Unit.</p>
+                        <p>5 In case of an emergency situation, namely: belt speed exceeding, belt runaway, continuous maximum load on the belt, use of cable-rope switch or pressing the "STOP" button at the operator's or dispatcher's station, the transition to the "Process stop subprogram" block with subsequent signalling, conveyor shutdown and closing of the slide.</p>
+                        <p>Algorithm of operation of the belt load stabilization block is shown in Figure 6. Algorithm of operation of the belt load stabilization subprogram is shown in Figure 7.</p>
+                        <div class="big-img">
+                            <img src="../img/diss/diss16eng.png" alt="Belt load stabilisation unit operating algorithm">
+                        </div>
+                        <div class="podpis">
+                            <p> Figure 6 - Belt load stabilisation unit operating algorithm</p>
+                        </div>
+                        <div class="big-img">
+                        <img src="../img/diss/diss17eng.png " alt="Алгоритм работы подпрограммы стабилизации погонной нагрузки на ленту" width="1000">
+                    </div>
+                    <div class="podpis">
+                        <p> Figure 7 - Belt load stabilisation subprogramme operating algorithm</p>
+                    </div>
+                    <p>Based on the above requirements for the automation equipment, a schematic diagram of the BSPN unit has been developed, Figure 8.</p>
+                    <div class="big-img">
+                        <img src="../img/diss/diss18eng.png" alt="Структурная схема блока стабилизации погонной нагрузки">
+                    </div>
+                    <div class="podpis">
+                        <p> Figure 8 - Block diagram of the load stabilisation block</p>
+                    </div>
+                    <p>where BSPN - load stabilisation block;</p>
+                    <p>DCS, KSL, DZI, KTV-2, TZ NM11 - set of sensors and equipment;</p>
+                    <p>BS1, BS2 - interface units;</p>
+                    <p>PLC - programmable logic controller;</p>
+                    <p>RSO - operator's workstation;</p>
+                    <p>RSD - dispatcher's workstation;</p>
+                    <p>UST-DS - signalling and telecommunication device;</p>
+                    <p>IY - executive devices.</p>
+
+                    <h4 id="p4">4 Mathematical description of the model of the object under study</h4>
+                    <p>To implement the model it is necessary to make a structural scheme of the production process.</p>
+                    <p>As the simulation is done in Matlab, the elements of the process are performed in the form of transfer functions. The block diagram in the form of transfer functions is shown in Figure 9.</p>
+                    <p>Simulation will be performed at given values of belt load Fz, H.</p>
+                    <div class="big-img">
+                        <img src="../img/diss/diss19.PNG" alt="Control object flowchart">
+                    </div>
+                    <div class="podpis">
+                        <p> Figure 9 - Control object flowchart</p>
+                    </div>
+                    <p>where - Wp is transfer function of PI regulator;</p>
+                    <p>Wl - backlash, 0.25;</p>
+                    <p>Wd - transfer function of the motor;</p>
+                    <p>Wd - transfer function of the gearbox;</p>
+                    <p>Wz - transfer function of the backlash;</p>
+                    <p>Wtd(p) - transfer function;</p>
+                    <p>Wtd(p) - transfer function of scales.</p>
+                    <p>1 Determination of transfer function parameters for asynchronous motor.</p>
+                    <p>The motor transfer coefficient for Wd is determined according to the expression:</p>
+
+                    <p class="text-center"> К= 30Р/(π∙n)</p>
+
+                    <p>where - P - nominal power 4000 W</p>
+                    <p>n - nominal rpm 1000 rpm.</p>
+
+                    <p class="text-center"> К= (30∙4000)/(π∙1000) = 38,2 N/m</p>
+                    <p>Constant time T=0.03 s</p>
+                    <p>Final transfer function:</p>
+
+                    <p class="text-center"> Wд(р) = 38,2/(0.03p+1)</p>
+
+                    <p>2 Determine the parameters of the transfer function for the gearbox:</p>
+                    <p class="text-center"> Крд = 1/i</p>
+                    <p>where i - is the gear ratio of the reducer.</p>
+                    <p class="text-center"> i=n1/n2</p>
+                    <p class="text-center"> i=1000/750 = 1.33</p>
+                    <p class="text-center"> Крд = 1/1.33 = 0.75</p>
+                    <p>The final transfer function for the gearbox:</p>
+                    <p class="text-center"> Wрд(р)= 0.75</p>
+                    <p>3 We determine the parameters of the transfer function for the gate valve:</p>
+                    <p class="text-center"> Wз(р) = 0,2 м/s</p>
+                    <p>4 Determine the transfer function parameters for the Transport delay unit. This block is needed to account for the time required for the rock to reach the weights. This time is 3s.</p>
+                    <p>5 The scales also act as an amplifier:</p>
+                    <p class="text-center"> Wв = 1</p>
+                    <p>We set the load on the scales to 200N. Figure 10 shows a graph of the system reaching the set load values.</p>
+                    <div class="sm-img">
+                        <img src="../img/diss/diss110.PNG" alt="Transition graph for stabilising traffic flow">
+                    </div>
+                    <div class="podpis">
+                        <p> Figure 10 - Transition graph for stabilising traffic flow</p>
+                    </div>
+                    <p> From the graph it is seen that the calculated model comes up to the set values of load at use of PI regulator. The coefficient values Кp = 0.0440 Ki = 0.0471.</p>
+
+                    <h4 id="p5">Conclusions</h4>
+                    <p>In this study:</p>
+                    <p>- The conveyor transport of the mine as an object of automation has been considered;</p>
+                    <p>- considered the work of reloading point;</p>
+                    <p>- problems of irregularity of cargo traffic in mine were considered;</p>
+                    <p>- the structural scheme of the developed block of stabilization of ladle-load BSPN is presented;</p>
+                    <p>- an algorithm of the BSPN block operation was developed;</p>
+                    <p>- the mathematical model of technological process is made, that has allowed to draw a conclusion: whether the developed block will really reach the set points.</p>
+                    <p>Thus, as a result of mathematical modelling we received a transitive process of stabilisation of a cargo flow on the conveyor belt. Based on the graph, we can see that the calculated model reaches the specified load values when the PI controller is used.</p>
+
+                    <h4 id="p6">List of sources</h4>
+                    <p>1 ЧАО «НПП Макеевский завод шахтной автоматики» [Электронный ресурс] - 1 файл. - Систем. требования: http://mzsha.inf.ua.</p>
+                    <p>2 Научно-технический центр проблем энергосбережения  [Электронный ресурс] - 1 файл. - Систем. требования: http://www.ntcpe.dn.ua/AKVM.html.</p>
+                    <p>3 Производственное предприятие шахтной электроаппаратуры «Автоматизированные системы управления водоотливными установками участковых и главных водоотливов» [Электронный ресурс] - 1 файл. - Систем. требования:  https://www.shela71.ru.</p>
+                    <p>4 Батицкий В.А. Автоматизация производственных процессов и АСУ ТП в горной промышленности: учебник [для студентов  вузов]. / [Батицкий В.А., Куроедов В.И., Рыжков А.А. ]  – М.: Недра, 1991. – 303с.</p>
+                    <p>5 Барашко О.Г. Автоматика, автоматизация и автоматизированные системы управления [Электронный ресурс] : курс лекций / О.Г. Барашко ; Белорус. гос. технол. ун-т, Каф. автоматиз. производ. процессов и электротехники. - 5 Мб. - Минск : [б.и.], 2011. - 1 файл. - Систем. требования: Acrobat Reader. http://ed.donntu.org/books/cd4941.pdf.</p>
+                    <p>6 Автоматизация технологических процессов подземных горных работ / А. В. Бубликов [и др.] ;  под общ. ред. В.В. Ткачева. - Днепропетровск : НГУ, 2012. - 304с.</p>
+                    <p>7 Груба В.И. Технические средства автоматизации в горной промышленности : учебное пособие [для студентов вузов] / В.И. Груба , Э.К. Никулин , А.С. Оголобченко ;  под общ. ред. В.И. Грубы. -Киев: ИСМО,1998.-373с.</p>
+                    <p>8 Правила безопасности в угольных шахтах [Электронный ресурс] : утв. приказом Гос. Комитета горного и тех. надзора ДНР и Мин-вом угля и энергетики ДНР 18.04.2016 г. № 36/208 : ввод в действие 17.05.2016. - Донецк, 2016. - Режим доступа: https://doc.minsvyazdnr.ru/docs/2476. - Загл. с экрана.</p>
+                    <p>9 Правила устройства электроустановок. Спб.- Издательство ДЕАН. – 2003. – 928 с.</p>
+                    <p>10 Толпежников Л.И., Автоматическое управление процессами шахт и рудни¬ков учебник [для студентов  вузов]. / Толпежников Л.И. - М.: Недра,</p>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
